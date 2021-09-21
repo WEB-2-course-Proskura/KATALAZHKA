@@ -7,16 +7,24 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+.head img{
+	border: 5px solid white;
+	border-radius: 5px;
+}
+
 .head p{
+	margin-top: auto;
+	margin-bottom: auto;
 	text-align: center;
-	width: 100%-400px;
-	padding-left: 515px;
+	padding-left: 36%;
 }
 
 .subtitle{
 	text-align: center;
 	font-family: "Rubik",sans-serif;
 	padding-bottom: 20px;
+	font-size: 1.2em;
 }
 
 .LABbutton{
@@ -37,7 +45,6 @@
 
 .sidebar{
 	width: 13%;
-
 }
 
 .result{
