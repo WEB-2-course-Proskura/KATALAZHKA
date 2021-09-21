@@ -1,0 +1,43 @@
+.head {
+	text-align: center;
+	font-family: "Rubik", sans-serif ;
+	text-transform: uppercase;
+	font-size: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.head p{
+	text-align: center;
+	width: 100%-400px;
+	padding-left: 515px;
+}
+	
+.subtitle{
+	text-align: center;
+	font-family: "Rubik",sans-serif;
+	padding-bottom: 20px;
+}
+
+.LABbutton{
+	font-family: "Rubik",sans-serif;
+	height: 70px;
+	width: 150px;
+	text-align: center;
+	border:5px solid #ffffff;
+	border-radius: 5px;
+}
+
+
+
+.description{
+	font-family: "Rubik",sans-serif;
+	border:5px solid #ffffff;
+	border-radius: 5px;
+	width: 500px;
+}
+
+.buttons{
+	display: flex;
+	justify-content: space-between;
+}
