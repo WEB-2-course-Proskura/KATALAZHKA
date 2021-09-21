@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru" data-lt-installed="true">
+<head>
+	<meta charset="utf-8">
+	    <style>
+		body
+		{
+			background: #005f40;
+			color: #ffffff;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&family=Rubik:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+	<div class="head">
+		<p>Звіти з лабораторних робіт<br>
+		З дисципліни "Розроблення WEB-Застосувань"</p>
+		<img src="images/faces/allTogether.jpg" height="300px" >
+	</div>
+	<div class="subtitle">
+	<p>БРИГАДА №1	Студенти групи ІС-01<br>
+	Гусак Михайло, Рибчинський Назарій, Даньков Артем, Левченко Юрій
+	</p>
+	</div>
+	<title></title>
+</head>
+<body>
+<div class="buttons">
+	<a  href="start.html"><div class="LABbutton" id="con1"><p>Лабораторна робота №1</p></div></a>
+	<div class="LABbutton" id="con2" ><p>Лабораторна робота №2</p>
+	</div>
+	<div class="LABbutton" id="con3" ><p>Лабораторна робота №3</p>
+	</div>
+	<div class="LABbutton" id="con4" ><p>Лабораторна робота №4</p>
+	</div>
+	<div class="LABbutton" id="con5" ><p>Лабораторна робота №5</p>
+	</div>
+	<div class="LABbutton" id="con6" ><p>Лабораторна робота №6</p>
+	</div>
+	<div class="LABbutton" id="con7" ><p>Лабораторна робота №7</p>
+	</div>
+	<div class="LABbutton" id="con8" ><p>Лабораторна робота №8</p>
+	</div>
+	<div class="LABbutton" id="con9" ><p>Лабораторна робота №9</p>
+	</div>
+</div>
+	<div class="body" id="body">
+		<div class="sidebar" id="sidebar">
+			<a href="1.html"><div class="description_button"><p>Опис предметного середовища</p></div></a>
+			<a href="2.html"><div class="description_button"><p>Тема Мета Місце Розташування</p></div></a>
+			<a href="3.html"><div class="description_button"><p>СТРУКТУРА ДОКУМЕНТА</p></div></a>
+			<a href="4.html"><div class="description_button"><p>HTML-код ТАБЛИЦЬ</p></div></a>
+			<a href="5.html"><div class="description_button"><p>HTML-код ФОРМИ</p></div></a>
+			<a href="6.html"><div class="description_button"><p>HTML-код ЗОБРАЖЕННЯ</p></div></a>
+			<a href="7.html"><div class="description_button"><p>ВИСНОВКИ</p></div></a>
+		</div>
+		<div class="result">
+			<div class="description" id="d">
+				<p>Теги для html-таблиць
+
+					Створення таблиці<br>
+
+					&lt;table&gt;&lt;/table><br><br>
+
+					Атрибути таблиці:<br>
+
+					align - вирівнювання таблиці на сторінці (значення: left | center | right)<br>
+
+					background - фоновий малюнок<br>
+
+					bgcolor - колір фону таблиці<br>
+
+					border - товщина рамка в пікселях<br>
+
+				bordercolor - колір рамки<br>
+
+				width - ширина таблиці<br>
+
+				height - висота таблиці<br>
+
+				cellpadding - відступ від рамка до вмісту комірки<br>
+
+				cellspacing - відстань між комірками таблиці<br>
+
+				cols - кількість колонок в таблиці<br>
+
+				frame - спосіб відображення рамки навколо таблиці (значення: void - без рамки, border - рамка навколо таблиці "за замовчуванням",  above - границі по верхньому краю таблиці, below - границі по нижньому граю, hsides - тільки горизонтальні границі зверху і знизу,  vsides - тільки вертикальні границі зліва і справа від таблиці, rhs - границі тільки справа, lhs - границі тільки зліва)<br>
+
+				rules - спосіб відображення рамок між комірками (значення: all - лінія навколо кожної комірки, groups - лінія між групами тегів &lt;thead>, &lt;tfoot>, &lt;tbody>, &lt;colgroup> або &lt;col>, cols - лінія між колонками, none - без границь, rows - лінія між рядками, які створені через тег <tr>)
+				summary - короткий опис таблиці (не видно у броузері, застарілий, тому не використовується)<br><br>
+
+				Створення рядків:<br>
+
+				&lt;tr>&lt;/tr><br><br>
+
+				Створення стовбців:<br>
+
+				&lt;td>&lt;/td><br><br>
+
+				Створення стовбця-заголовка:<br>
+
+				&lt;th>&lt;/th><br><br>
+
+				Групи рядків:<br>
+
+				&lt;thead>&lt;/thead> (щоб позначити "шапку" таблиці (назву стовбців)),<br>
+
+				&lt;tbody>&lt;/tbody> (щоб позначити вміст таблиці),<br>
+
+				&lt;tfoot>&lt;/tfoot> (щоб позначити підсумок даних, вказаних у таблиці)<br><br>
+
+				Назва (заголовок, підпис) таблиці, він вказується після тегу &lt;table>:<br>
+
+				&lt;caption>&lt;/caption><br><br>
+
+				 Форматування стовбців таблиці (зовнішній вигляд):<br>
+
+				теги &lt;colgroup>&lt;/colgroup>, між ними<br>
+
+				&lt;col> з атрибутами span - кількість стовбців, для яких задається форматування, style - стиль форматування (наприклад, колір фону background-color, ширина width)<br>
+				</p>
+			</div>
+		</div>
+
+	</div>
+	</div>
+	</div>
+</body>
+</html>

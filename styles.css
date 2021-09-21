@@ -34,6 +34,8 @@
 	text-align: center;
 	border:5px solid #ffffff;
 	border-radius: 5px;
+	color: white;
+	text-decoration: underline #005f40;
 }
 
 .body{
@@ -64,11 +66,26 @@
 	border-radius: 5px;
 }
 
+.description_button p{
+	color: white;
+	text-decoration: underline #005f40;
+}
+
 .description{
 	padding-left: 10px;
 	font-family: "Rubik",sans-serif;
 	font-size: 1.5em;
 	width: 100%;
+}
+
+.description h3{
+	margin-top: 21%;
+	text-align: center;
+}
+
+.description h4{
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .buttons{
