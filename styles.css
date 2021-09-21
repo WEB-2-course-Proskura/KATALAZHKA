@@ -27,15 +27,30 @@
 	border:5px solid #ffffff;
 	border-radius: 5px;
 }
+.body{
+	justify-content: flex-start;
+	display: flex;
+	width:100%;
+}
+.sidebar{
+	display: flex;
+}
+.description_button{
+	margin-top: 10px;
+	font-family: "Rubik",sans-serif;
+	height: 70px;
+	width: 200px;
+	text-align: center;
+	border:5px solid #ffffff;
+	border-radius: 5px;
+}
 
-
-
-.description{
+/*.description{
 	font-family: "Rubik",sans-serif;
 	border:5px solid #ffffff;
 	border-radius: 5px;
 	width: 500px;
-}
+}*/
 
 .buttons{
 	display: flex;
