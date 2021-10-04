@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae25957-9a89-44e5-a1d5-b3c7e7ede3d5" name="Changes" comment="Update for second lab report(2.0)">
-      <change afterPath="$PROJECT_DIR$/images/reportimages/identifiers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reportimages/margins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reportimages/lists.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reportimages/movingelemscode.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WEB_GG" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -70,7 +68,7 @@
       <workItem from="1632255959977" duration="4839000" />
       <workItem from="1632263919502" duration="5060000" />
       <workItem from="1632289721079" duration="946000" />
-      <workItem from="1633348699621" duration="4235000" />
+      <workItem from="1633348699621" duration="4888000" />
     </task>
     <task id="LOCAL-00001" summary="Update for description button">
       <created>1632257360935</created>
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633354543995</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update for second lab report(2.0)">
+      <created>1633355377751</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633355377751</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
