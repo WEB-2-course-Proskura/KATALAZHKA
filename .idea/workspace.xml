@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aae25957-9a89-44e5-a1d5-b3c7e7ede3d5" name="Changes" comment="Update for second lab report(2.0)" />
+    <list default="true" id="aae25957-9a89-44e5-a1d5-b3c7e7ede3d5" name="Changes" comment="Update for second lab report(2.0)">
+      <change afterPath="$PROJECT_DIR$/images/reportimages/identifiers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reportimages/margins.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +70,7 @@
       <workItem from="1632255959977" duration="4839000" />
       <workItem from="1632263919502" duration="5060000" />
       <workItem from="1632289721079" duration="946000" />
-      <workItem from="1633348699621" duration="3150000" />
+      <workItem from="1633348699621" duration="4235000" />
     </task>
     <task id="LOCAL-00001" summary="Update for description button">
       <created>1632257360935</created>
@@ -106,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633353353799</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update for second lab report(2.0)">
+      <created>1633354543995</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633354543995</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
