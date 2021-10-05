@@ -55,11 +55,22 @@
 	border:5px solid #ffffff;
 	border-radius: 5px;
 }
+.result img{
+	margin: auto;
+	heigth:100%;
+	width:100%;
+}
 
 .description h1{
 	font-size: 22px;
 	padding-right: 10px;
 }
+.result img{
+	margin: auto;
+	heigth:100%;
+	width:100%;
+}
+
 .imgmargin{
 	margin-left: 5%;
 }
@@ -84,6 +95,11 @@
 	font-family: "Rubik",sans-serif;
 	font-size: 1.5em;
 	width: 99%;
+}
+.description img{
+	margin: auto;
+	heigth:100%;
+	width:100%;
 }
 
 .imgcode{

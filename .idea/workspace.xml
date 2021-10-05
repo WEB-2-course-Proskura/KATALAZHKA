@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae25957-9a89-44e5-a1d5-b3c7e7ede3d5" name="Changes" comment="Update for second lab report(2.0)">
-      <change afterPath="$PROJECT_DIR$/2_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reportimages/openPage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/report2/2_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/report2/2_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/report2/2_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/report2/2_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/report2/2_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/report2/2_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/report2/2_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/report2/2_8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/start.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +66,27 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\torgm\WebstormProjects\Project-reports" />
+      <recent name="C:\Users\torgm\WebstormProjects\Project-reports\report2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\torgm\WebstormProjects\Project-reports\report2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project-reports/start.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.start.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +99,9 @@
       <workItem from="1632255959977" duration="4839000" />
       <workItem from="1632263919502" duration="5060000" />
       <workItem from="1632289721079" duration="946000" />
-      <workItem from="1633348699621" duration="6148000" />
+      <workItem from="1633348699621" duration="4888000" />
+      <workItem from="1633363747947" duration="1714000" />
+      <workItem from="1633441915369" duration="4236000" />
     </task>
     <task id="LOCAL-00001" summary="Update for description button">
       <created>1632257360935</created>
@@ -124,14 +159,7 @@
       <option name="project" value="LOCAL" />
       <updated>1633355377751</updated>
     </task>
-    <task id="LOCAL-00009" summary="Update for second lab report(2.0)">
-      <created>1633356071508</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1633356071508</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
