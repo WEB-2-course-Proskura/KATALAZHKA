@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru" data-lt-installed="true">
+<head>
+	<meta charset="utf-8">
+	    <style>
+		body
+		{
+			background: #005f40;
+			color: #ffffff;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&family=Rubik:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+	<div class="head">
+		<p>Звіти з лабораторних робіт<br>
+		З дисципліни "Розроблення WEB-Застосувань"</p>
+		<img src="../images/faces/allTogether.jpg" height="300px" >
+	</div>
+	<div class="subtitle">
+	<p>БРИГАДА №1	Студенти групи ІС-01<br>
+	Гусак Михайло, Рибчинський Назарій, Даньков Артем, Левченко Юрій
+	</p>
+	</div>
+	<title></title>
+</head>
+<body>
+<div class="buttons">
+	<a  href="../start.html"><div class="LABbutton" id="con1"><p>Лабораторна робота №1</p></div></a>
+	<a href="/report2/2_1.html">
+	<div class="LABbutton" id="con2" ><p>Лабораторна робота №2</p>
+	</div></a>
+	<a href="start.html"><div class="LABbutton" id="con3" ><p>Лабораторна робота №3</p>
+</div></a>
+	<a href="/report4/4_1.html"><div class="LABbutton" id="con4" ><p>Лабораторна робота №4</p>
+	</div></a>
+	<div class="LABbutton" id="con5" ><p>Лабораторна робота №5</p>
+	</div>
+	<div class="LABbutton" id="con6" ><p>Лабораторна робота №6</p>
+	</div>
+	<div class="LABbutton" id="con7" ><p>Лабораторна робота №7</p>
+	</div>
+	<div class="LABbutton" id="con8" ><p>Лабораторна робота №8</p>
+	</div>
+	<div class="LABbutton" id="con9" ><p>Лабораторна робота №9</p>
+	</div>
+</div>
+	<div class="body" id="body">
+		<div class="sidebar" id="sidebar">
+			<a href="4_1.html"><div class="description_button"><p>Постановка задачі</p></div></a>
+			<a href="4_2.html"><div class="description_button"><p>Способи функціонального застосування</p></div></a>
+			<a href="4_3.html"><div class="description_button"><p>Схема URL</p></div></a>
+			<a href="4_4.html"><div class="description_button"><p>Обробник подій</p></div></a>
+			<a href="4_5.html"><div class="description_button"><p>Підстановка</p></div></a>
+			<a href="4_6.html"><div class="description_button"><p>Вставка</p></div></a>
+			<a href="4_7.html"><div class="description_button"><p>Масиви (4 пункт)</p></div></a>
+			<a href="4_8.html"><div class="description_button"><p>Виконання 6 пункту</p></div></a>
+			<a href="4_9.html"><div class="description_button"><p>Висновки</p></div></a>
+		</div>
+		<div class="result">
+			<div class="description" id="d">
+				<p>
+					Value
+Строка DOMString, которая содержит части HTML разметки. Установка значения innerHTML удаляет всё содержимое элемента и заменяет его на узлы, которые были разобраны как HTML, указанными в строке htmlString.
+
+Исключения
+SyntaxError
+Возникает при попытке установить значение innerHTML строкой, в которой содержится неправильно сформированный HTML.
+NoModificationAllowedError
+Возникает при попытке вставить HTML в узел, у которого родителем является Document.
+Примечания
+Это свойство предоставляет простой способ полностью заменить содержимое элемента.<br>
+Например, все содержимое элемента body может быть удалено:
+
+document.body.innerHTML = "";  // Заменяет содержимое тела пустой строкой.
+Copy to Clipboard
+Свойство innerHTML многих типов элементов, включая , могут быть возвращены или перемещены. Это может так же быть использовано для просмотра кода страницы, которая была изменена динамически:
+
+// Скопируйте и вставьте в адресную строку в виде одной строки.
+javascript:""+document.documentElement.innerHTML.replace(/</,"&lt;") + "";
+Copy to Clipboard
+Это свойство было первоначально реализовано веб браузерами, затем описано WHATWG и W3C в HTML5. Старые реализации могут отличаться от новых. Для примера, когда введён текст в поле ввода <input>, IE меняет значение атрибута <input> свойства innerHTML, но браузеры Gecko не делают этого.
+
+Соображения безопасности
+Не редко можно увидеть использование InnerHTML для вставки текста в веб страницу. Это приводит к рискам безопасности.
+
+const name = "John";
+// предполагая, что 'el' является HTML DOM-элементом.
+el.innerHTML = name; // безвредный в этом случае
+
+// ...
+
+el.innerHTML = name; // безвредный в этом случае
+Copy to Clipboard
+Хотя это может выглядеть как атака cross-site scripting, результат безопасный. HTML5 указывает на тег  вставленный через InnerHTM должен не выполнится.
+
+Однако, есть способы запустить JavaScript без использования элементов , так что есть риск безопасности всякий раз, когда вы используете innerHTML для набора строк, над которыми у вас нет контроля. Например:
+
+
+ // показывает alert
+Copy to Clipboard
+По этой причине,  рекомендуется не использовать innerHTML при вставке обычного текста; вместо этого, используйте node.textContent. Это не интерпретирует отправленный контент как HTML, но вместо этого он вставляется как не обработанный текст. </p>
+
+			</div>
+		</div>
+
+	</div>
+	</div>
+	</div>
+</body>
+</html>

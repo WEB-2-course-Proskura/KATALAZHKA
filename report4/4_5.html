@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru" data-lt-installed="true">
+<head>
+	<meta charset="utf-8">
+	    <style>
+		body
+		{
+			background: #005f40;
+			color: #ffffff;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&family=Rubik:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+	<div class="head">
+		<p>Звіти з лабораторних робіт<br>
+		З дисципліни "Розроблення WEB-Застосувань"</p>
+		<img src="../images/faces/allTogether.jpg" height="300px" >
+	</div>
+	<div class="subtitle">
+	<p>БРИГАДА №1	Студенти групи ІС-01<br>
+	Гусак Михайло, Рибчинський Назарій, Даньков Артем, Левченко Юрій
+	</p>
+	</div>
+	<title></title>
+</head>
+<body>
+<div class="buttons">
+	<a  href="../start.html"><div class="LABbutton" id="con1"><p>Лабораторна робота №1</p></div></a>
+	<a href="/report2/2_1.html">
+	<div class="LABbutton" id="con2" ><p>Лабораторна робота №2</p>
+	</div></a>
+	<a href="start.html"><div class="LABbutton" id="con3" ><p>Лабораторна робота №3</p>
+</div></a>
+	<a href="/report4/4_1.html"><div class="LABbutton" id="con4" ><p>Лабораторна робота №4</p>
+	</div></a>
+	<div class="LABbutton" id="con5" ><p>Лабораторна робота №5</p>
+	</div>
+	<div class="LABbutton" id="con6" ><p>Лабораторна робота №6</p>
+	</div>
+	<div class="LABbutton" id="con7" ><p>Лабораторна робота №7</p>
+	</div>
+	<div class="LABbutton" id="con8" ><p>Лабораторна робота №8</p>
+	</div>
+	<div class="LABbutton" id="con9" ><p>Лабораторна робота №9</p>
+	</div>
+</div>
+	<div class="body" id="body">
+		<div class="sidebar" id="sidebar">
+			<a href="4_1.html"><div class="description_button"><p>Постановка задачі</p></div></a>
+			<a href="4_2.html"><div class="description_button"><p>Способи функціонального застосування</p></div></a>
+			<a href="4_3.html"><div class="description_button"><p>Схема URL</p></div></a>
+			<a href="4_4.html"><div class="description_button"><p>Обробник подій</p></div></a>
+			<a href="4_5.html"><div class="description_button"><p>Підстановка</p></div></a>
+			<a href="4_6.html"><div class="description_button"><p>Вставка</p></div></a>
+			<a href="4_7.html"><div class="description_button"><p>Масиви (4 пункт)</p></div></a>
+			<a href="4_8.html"><div class="description_button"><p>Виконання 6 пункту</p></div></a>
+			<a href="4_9.html"><div class="description_button"><p>Висновки</p></div></a>
+		</div>
+		<div class="result">
+			<div class="description" id="d">
+				<p>
+					Подстановка (entity) встречается на Web-страницах довольно редко. Тем не менее это достаточно мощный инструмент генерации HTML-страницы на стороне браузера. Подстановки используются в качестве значений атрибутов HTML-контейнеров. Например, как значение по умолчанию поля формы, определяющего домашнюю страницу пользователя, будет указан URL текущей страницы:
+
+
+HTML-комментарии здесь вставлены для защиты от интерпретации данного фрагмента страницы HTML-парсером в старых браузерах (у высокого начальства еще встречаются). В свою очередь, конец HTML-комментария защищен от интерпретации JavaScript-интерпретатором (// в начале строки). Кроме того, в качестве значения атрибута LANGUAGE у тега начала контейнера указано значение "JavaScript". VBScript, который является альтернативой JavaScript - это скорее экзотика, чем общепринятая практика, поэтому данный атрибут можно опустить - значение "JavaScript" принимается по умолчанию.
+
+Очевидно, что размещать в заголовке документа генерацию текста страницы бессмысленно - он не будет отображен браузером. Поэтому в заголовок помещают декларации общих переменных и функций, которые будут затем использоваться в теле документа. При этом браузер Netscape Navigator более требовательный, чем Internet Explorer. Если не разместить описание функции в заголовке, то при ее вызове в теле документа можно получить сообщение о том, что данная функция не определена. Приведем пример размещения и использования функции:
+
+
+В Internet Explorer 4.0 подстановки не поддерживаются, поэтому пользоваться ими следует аккуратно. Прежде чем выдать браузеру страницу с подстановками, нужно проверить тип этого браузера.
+
+В случае подстановки интерпретатор получает управление в момент разбора браузером (компонент парсер) HTML-документа. Как только парсер встречает конструкцию &{..} у атрибута контейнера, он передает управление интерпретатору JavaScript, который, в свою очередь, после исполнения кода это управление возвращает парсеру. Таким образом данная операция аналогична подкачке графики на HTML-страницу.
+					</p>
+
+			</div>
+		</div>
+
+	</div>
+	</div>
+	</div>
+</body>
+</html>

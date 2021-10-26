@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru" data-lt-installed="true">
+<head>
+	<meta charset="utf-8">
+	    <style>
+		body
+		{
+			background: #005f40;
+			color: #ffffff;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&family=Rubik:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+	<div class="head">
+		<p>Звіти з лабораторних робіт<br>
+		З дисципліни "Розроблення WEB-Застосувань"</p>
+		<img src="../images/faces/allTogether.jpg" height="300px" >
+	</div>
+	<div class="subtitle">
+	<p>БРИГАДА №1	Студенти групи ІС-01<br>
+	Гусак Михайло, Рибчинський Назарій, Даньков Артем, Левченко Юрій
+	</p>
+	</div>
+	<title></title>
+</head>
+<body>
+<div class="buttons">
+	<a  href="../start.html"><div class="LABbutton" id="con1"><p>Лабораторна робота №1</p></div></a>
+	<a href="/report2/2_1.html">
+	<div class="LABbutton" id="con2" ><p>Лабораторна робота №2</p>
+	</div></a>
+	<a href="start.html"><div class="LABbutton" id="con3" ><p>Лабораторна робота №3</p>
+</div></a>
+	<a href="/report4/4_1.html"><div class="LABbutton" id="con4" ><p>Лабораторна робота №4</p>
+	</div></a>
+	<div class="LABbutton" id="con5" ><p>Лабораторна робота №5</p>
+	</div>
+	<div class="LABbutton" id="con6" ><p>Лабораторна робота №6</p>
+	</div>
+	<div class="LABbutton" id="con7" ><p>Лабораторна робота №7</p>
+	</div>
+	<div class="LABbutton" id="con8" ><p>Лабораторна робота №8</p>
+	</div>
+	<div class="LABbutton" id="con9" ><p>Лабораторна робота №9</p>
+	</div>
+</div>
+	<div class="body" id="body">
+		<div class="sidebar" id="sidebar">
+			<a href="4_1.html"><div class="description_button"><p>Постановка задачі</p></div></a>
+			<a href="4_2.html"><div class="description_button"><p>Способи функціонального застосування</p></div></a>
+			<a href="4_3.html"><div class="description_button"><p>Схема URL</p></div></a>
+			<a href="4_4.html"><div class="description_button"><p>Обробник подій</p></div></a>
+			<a href="4_5.html"><div class="description_button"><p>Підстановка</p></div></a>
+			<a href="4_6.html"><div class="description_button"><p>Вставка</p></div></a>
+			<a href="4_7.html"><div class="description_button"><p>Масиви (4 пункт)</p></div></a>
+			<a href="4_8.html"><div class="description_button"><p>Виконання 6 пункту</p></div></a>
+			<a href="4_9.html"><div class="description_button"><p>Висновки</p></div></a>
+		</div>
+		<div class="result">
+			<div class="description" id="d">
+				<p>
+					indow.onclick => document.onclick => btn.onclick;
+! Послідовність в різних браузерах може бути різною
+
+Щоб перервати ланцюжок часто достатньо повернути з обробника значення false
+
+Наприклад, щоб "вимкнути посилання" :
+
+<a href='file.html' onclick='return false;'>link</a>
+Захопити подію
+Наприклад, вам може знадобитися, щоб, об'єкт window обробляв всі події MouseDown, CLICK, MOUSEUP незалежно від місця їх виникнення.
+
+Для цього існують методи
+
+captureEvents – захоплює події вказаного типу.
+
+releaseEvents – ігнорує події вказаних типів.
+
+routeEvent – перенаправляє захоплену подію вказаному об'єкту.
+
+handleEvent – обробляє захоплену подію.
+
+window.captureEvents(Event.CLICK | Event.MOUSEDOWN | Event.MOUSEUP)
+
+Обробник події
+
+function clickHandler(e)
+
+{
+
+      var retval = routeEvent(e);
+
+      if (retval == false) return false;
+
+     // тут – обробка події
+
+}
+
+Типи подій
+
+onabort            Користувач зупиняє завантаженнязображення (Image)
+
+onblur                          Користувач прибирає фокус із об'єкта  (Button,Checkbox,FileUpload, Frame, Layer, Password, Radio, Reset, Select, Submit, Text, Textarea, window)
+
+onchange         Користувач змінює змісте елемента форми (the FileUpload, Select, Text)
+
+onclick                         Користувач натискає кнопку миші (Button, Checkbox, document, Link, Radio, Reset, Submit , і т.д. – майже всі об'єкти
+
+
+
+ondblclick        Кристувач двічі натискає на кнопку миші (Button, Checkbox, document, FileUpload, Hidden, Link, Password, Radio, Reset, Select, Submit )
+
+ondragdrop      Користувач перетягує об'єкт у вікно
+
+onerror             Виникла помилка підчас завантаження ( Image, window)
+
+onfocus            Користувач перемістив фокус на об'єкт (Button, Checkbox, FileUpload,
+
+Frame, Layer, Password, Radio, Reset, Select, Submit, Text, Textarea, window )
+
+
+
+onkeydown      Користувач натиснув клавішу (document, Image, Link, Text, Textarea)
+
+onkeypress      Користувач натиснув клавішу і відпустив. (document, Image, Link)
+
+onload              Закінчено завантаження документа (Frame, Image, Layer)
+
+onmousedown              Користувач натиснув кнопку миші. (Button, document, Link )
+
+onmousemove              Користувач перемістив курсор миші (Виникає лише при явному заданні обробника).
+
+onmouseout     Користувач перемістив курсор за межі об'єкта(Area, Layer, Link)
+
+onmouseover   Користувач помістив курсор миші над об'єктом (Area, Layer, Link)
+
+onmouseup      Користувач відпустив конпку миші (Button, document, Link)
+
+onmove            Користувач перемістив вікно (Frame, window)
+
+onreset             Користувач натиснув кнопку Reset у формі (Form)
+
+onresize           Користувач змінив розмір вікна (Frame, window )
+
+onselect           Користвуач виділив текст (Text, Textarea)
+
+onsubmit          Користвуач відправив дані з форми (Form)
+
+unload                         Користувач залишає сторінку, наприклад, завантажуючи інший документ (Frame, window)
+
+Об'єкт Event
+Зберігає інформацію про подію
+
+ONCLICK="myHandler(event)".
+
+function reportEvent(ev) {  … }
+
+document.links[2].onclick = reportEvent
+
+
+
+type     - тип події (наприклад, "click")
+
+target – об'єкт, якому адресована подія
+
+layerX, layerY – горизонтальна і вертикальна позиції курсора миші
+
+which – номер натиснутої кнопки миші.
+
+modifiers – чи натиснута клавіша-модифікатор (Alt, Ctrl, Shift). Бітова маска, одна з констант ALT_MASK, CONTROL_MASK, SHIFT_MASK, and META_MASK
+
+data – масив з рядків, який містить URL об'єктів, які були перетягнуті та впущені у вікно.
+
+pageX, pageY – горизонтальна та вертикальна позиції курсора відносно веб-сторінки
+
+screenX, screenY  – горизонтальна та вертикальна позиції курсора на екрані
+
+width, height – ширина та висота вікна після зміни розмірів.
+
+Приклади
+Відкрити/закрити вікно
+
+homeWindow=  open("bla.htm", "displayWindow",
+
+    "width=400,height=300,status=no,toolbar=no,menubar=no");
+
+homeWindow.close()
+
+window.close()
+
+self.close()
+
+close()
+
+Випадаюче меню
+
+Перевірка даних у формі
+
+Динамічне завантаження елементів сторінки
+
+Робота з сусіднім вікном
+					</p>
+
+			</div>
+		</div>
+
+	</div>
+	</div>
+	</div>
+</body>
+</html>
