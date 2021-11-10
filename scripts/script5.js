@@ -14,7 +14,7 @@ $(function (){
     // кнопка 3
     $('#sidebar3').click(
         function () {
-            d.html("<img src='images/reportimages/' >")
+            d.html("<img src='images/reportimages/5-3.png' >")
         }
     );
     // кнопка 4
@@ -26,7 +26,7 @@ $(function (){
     // кнопка 5
     $('#sidebar5').click(
         function () {
-            d.html('<img src="images/reportimages/"/>')
+            d.html('<img src="images/reportimages/5-5.png"/>')
         }
     );
     // кнопка 6
