@@ -8,7 +8,7 @@ $(function (){
     // кнопка 2
     $('#sidebar2').click(
         function (){
-            d.html("<img src='images/reportimages/5-2.png'>");
+            d.html("<img src='images/reportimages/5-2.png'><img src='images/reportimages/5-2code.png'>");
         }
     );
     // кнопка 3
@@ -20,7 +20,7 @@ $(function (){
     // кнопка 4
     $('#sidebar4').click(
         function () {
-            d.html('<img src="images/reportimages/5-4.png"/>')
+            d.html('<img src="images/reportimages/5-4.png"/><img src="images/reportimages/5-4code.png">')
         }
     );
     // кнопка 5
