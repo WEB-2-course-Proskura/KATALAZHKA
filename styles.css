@@ -146,3 +146,15 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+
+.hui{
+	background-color: white;
+	width: 110px;
+	padding: 10px;
+ 	box-sizing: border-box;
+}
+
+.hui p{
+	color: black;
+}
