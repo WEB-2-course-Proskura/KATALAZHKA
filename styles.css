@@ -51,7 +51,8 @@
 
 .result{
 	width: 86.4%;
-	margin-top: 10px;
+	margin-top: 6px;
+	margin-left: 4%;
 	border:5px solid #ffffff;
 	border-radius: 5px;
 }
@@ -76,10 +77,10 @@
 }
 
 .description_button{
-	margin-top: 10px;
+	margin-top: 5px;
 	font-family: "Rubik",sans-serif;
 	height: 70px;
-	width: 90%;
+	width: 120%;
 	text-align: center;
 	border:5px solid #ffffff;
 	border-radius: 5px;
