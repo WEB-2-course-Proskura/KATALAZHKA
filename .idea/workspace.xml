@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae25957-9a89-44e5-a1d5-b3c7e7ede3d5" name="Changes" comment="Update for second lab report(2.0)">
-      <change afterPath="$PROJECT_DIR$/report7/img/Screenshot_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report7/img/Screenshot_122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/8_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/img/DBIO1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/img/DBIO2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/img/DBIO3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/img/FileWrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/img/photo_2021-12-15_09-02-49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report8/img/photo_2021-12-15_09-43-11.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report7/7_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/report7/7_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report7/7_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/report7/7_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report7/7_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/report7/7_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/start.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WEB_GG" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -99,6 +111,7 @@
       <workItem from="1639522394201" duration="106000" />
       <workItem from="1639522510495" duration="47000" />
       <workItem from="1639522560145" duration="1560000" />
+      <workItem from="1639549412139" duration="4952000" />
     </task>
     <task id="LOCAL-00001" summary="Update for description button">
       <created>1632257360935</created>
